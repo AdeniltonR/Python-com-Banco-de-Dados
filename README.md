@@ -56,7 +56,6 @@ Este é o diagrama do projeto eletrônico, onde estarão contidos todos os circu
 
 ### Software
 
-Para obter mais informações sobre o projeto do Software, clique no __[link](https://facens.sharepoint.com/sites/CEDEPS/Documentos%20Compartilhados/Forms/AllItems.aspx?FolderCTID=0x01200088B3535304827A4CAC7690DB25A18D14&id=%2Fsites%2FCEDEPS%2FDocumentos%20Compartilhados%2F07%5FInova%C3%A7%C3%A3o%2FTemplates%2FPasta%20para%20projeto%2FNome%20do%20projeto%2FSoftware&viewid=70ddae8e%2D5b6a%2D4a86%2Da30d%2Dba31ac7e7459)__ a seguir.
+Para obter mais informações sobre o projeto do Software, clique no __[link](https://github.com/AdeniltonR/Python-com-Banco-de-Dados/tree/main/Software/Python)__ a seguir.
 
 `[Adicionar uma imagem]`
-
