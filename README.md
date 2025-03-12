@@ -18,7 +18,7 @@
 
 | Versão | Data       | Autor               | Descrição         |
 |--------|------------|---------------------|-------------------|
-| 1.0.0  | 11/03/2025 | Adenilton, Gregorio | Início do Projeto |
+| 1.0.0  | 07/03/2025 | Adenilton, Gregorio | Início do Projeto |
 
 ## Resumo
 Este projeto implementa um módulo de persistência de dados para armazenar informações coletadas de fóruns de discussão. Ele recebe dados extraídos por um sistema de web scraping e os salva em um banco de dados estruturado, permitindo consultas e futuras análises, como processamento de linguagem natural (NLP) para análise de sentimentos e previsão de tendências.
