@@ -1,0 +1,382 @@
+﻿
+[
+	{
+		"sigla" : "AC",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ac.png",
+		"estado" : "Acre",
+		"capital" : "Rio Branco",
+		"regiao": "Norte", 
+		"populacao":"795.145",
+		"idh":"0,751",
+		"expectativa_vida":"71,8",
+		"site":" http://www.riobranco.ac.gov.br/",
+		"cidades":"22",
+		"codigo_ibge": "12"
+	},
+
+
+	{
+		"sigla" : "AL",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/al.png",
+		"estado" : "Alagoas",
+		"capital" : "Maceió",
+		"regiao": "Nordeste", 
+		"populacao":"3.327.551",
+		"idh":"0,677",
+		"expectativa_vida":"69,2",
+		"site":" http://www.maceio.al.gov.br/",
+		"cidades":"102",
+		"codigo_ibge": "27"
+	},
+
+	{
+		"sigla" : "AP",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ap.png",
+		"estado" : "Amapá",
+		"capital" : "Macapá",
+		"regiao": "Norte", 
+		"populacao":"756.500",
+		"idh":"0,780",
+		"expectativa_vida":"72,5",
+		"site":" http://www.amapa.gov.br/",
+		"cidades":"16",
+		"codigo_ibge": "16"
+	},
+
+	{
+		"sigla" : "AM",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/am.png",
+		"estado" : "Amazonas",
+		"capital" : "Manaus",
+		"regiao": "Norte", 
+		"populacao":"3.893.763",
+		"idh":"0,780",
+		"expectativa_vida":"70,6",
+		"site":" http://www.manaus.am.gov.br/",
+		"cidades":"62",
+		"codigo_ibge": "13"
+	},	
+
+	{
+		"sigla" : "BA",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ba.png",
+		"estado" : "Bahia",
+		"capital" : "Salvador",
+		"regiao": "Nordeste", 
+		"populacao":"15.150.143",
+		"idh":"0,742",
+		"expectativa_vida":"71,9",
+		"site":" http://www.salvador.ba.gov.br/",
+		"cidades":"417",
+		"codigo_ibge": "29"
+	},	
+
+	{
+		"sigla" : "CE",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ce.png",
+		"estado" : "Ceará",
+		"capital" : "Fortaleza",
+		"regiao": "Nordeste", 
+		"populacao":"8.867.448",
+		"idh":"0,723",
+		"expectativa_vida":"72,4",
+		"site":" http://www.fortaleza.ce.gov.br/",
+		"cidades":"184",
+		"codigo_ibge": "23"
+	},	
+	
+	{
+		"sigla" : "DF",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/df.png",
+		"estado" : "Distrito Federal",
+		"capital" : "Brasília",
+		"regiao": "Centro-Oeste", 
+		"populacao":"2.867.869",
+		"idh":"0,874",
+		"expectativa_vida":"76,2",
+		"site":" http://www.df.gov.br/",
+		"cidades":"853",
+		"codigo_ibge": "53"
+	},	
+
+	{
+		"sigla" : "ES",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/es.png",
+		"estado" : "Espírito Santo",
+		"capital" : "Vitória",
+		"regiao": "Sudeste", 
+		"populacao":"3.894.899",
+		"idh":"0,802",
+		"expectativa_vida":"75,6",
+		"site":" http://www.vitoria.es.br/",
+		"cidades":"78",
+		"codigo_ibge": "32"
+	},
+
+	{
+		"sigla" : "GO",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/go.png",
+		"estado" : "Goiás",
+		"capital" : "Goiânia",
+		"regiao": "Centro-Oeste", 
+		"populacao":"6.551.322",
+		"idh":"0,800",
+		"expectativa_vida":"73,2",
+		"site":" http://www.goiania.go.gov.br/",
+		"cidades":"246",
+		"codigo_ibge": "52"
+	},	
+
+	{
+		"sigla" : "MA",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ma.png",
+		"estado" : "Maranhão",
+		"capital" : "São Luís",
+		"regiao": "Nordeste", 
+		"populacao":"6.861.924",
+		"idh":"0,683",
+		"expectativa_vida":"68,7",
+		"site":" http://www.saoluis.ma.gov.br/",
+		"cidades":"217",
+		"codigo_ibge": "21"
+	},
+
+	{
+		"sigla" : "MT",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/mt.png",
+		"estado" : "Mato Grosso",
+		"capital" : "Cuiabá",
+		"regiao": "Centro-Oeste", 
+		"populacao":"3.236.578",
+		"idh":"0,796",
+		"expectativa_vida":"72,5",
+		"site":" http://www.cuiaba.mt.gov.br/",
+		"cidades":"141",
+		"codigo_ibge": "51"
+	},
+
+	{
+		"sigla" : "MS",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ms.png",
+		"estado" : "Mato Grosso do Sul",
+		"capital" : "Campo Grande",
+		"regiao": "Centro-Oeste", 
+		"populacao":"2.630.098",
+		"idh":"0,802",
+		"expectativa_vida":"73,8",
+		"site":" http://www.pmcg.ms.gov.br/",
+		"cidades":"79",
+		"codigo_ibge": "50"
+	},
+
+	{
+		"sigla" : "MG",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/mg.png",
+		"estado" : "Minas Gerais",
+		"capital" : "Belo Horizonte",
+		"regiao": "Sudeste", 
+		"populacao":"20.777.672",
+		"idh":"0,800",
+		"expectativa_vida":"75,4",
+		"site":" http://www.belohorizonte.mg.gov.br/",
+		"cidades":"853",
+		"codigo_ibge": "31"
+	},
+
+	{
+		"sigla" : "PA",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/pa.png",
+		"estado" : "Pará",
+		"capital" : "Belém",
+		"regiao": "Norte", 
+		"populacao":"8.101.180",
+		"idh":"0,755",
+		"expectativa_vida":"71,2",
+		"site":" http://www.belem.pa.gov.br/",
+		"cidades":"144",
+		"codigo_ibge": "15"
+	},
+
+	{
+		"sigla" : "PB",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/pb.png",
+		"estado" : "Paraíba",
+		"capital" : "João Pessoa",
+		"regiao": "Nordeste", 
+		"populacao":"3.950.359",
+		"idh":"0,718",
+		"expectativa_vida":"71,2",
+		"site":" http://www.joaopessoa.pb.gov.br/",
+		"cidades":"223",
+		"codigo_ibge": "25"
+	},
+
+	{
+		"sigla" : "PR",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/pr.png",
+		"estado" : "Paraná",
+		"capital" : "Curitiba",
+		"regiao": "Sul", 
+		"populacao":"11.112.062",
+		"idh":"0,820",
+		"expectativa_vida":"75,3",
+		"site":" http://www.pr.gov.br/",
+		"cidades":"399",
+		"codigo_ibge": "41"
+	},
+
+	{
+		"sigla" : "PE",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/pe.png",
+		"estado" : "Pernambuco",
+		"capital" : "Recife",
+		"regiao": "Nordeste", 
+		"populacao":"9.297.861",
+		"idh":"0,718",
+		"expectativa_vida":"71,1",
+		"site":" http://www2.recife.pe.gov.br/",
+		"cidades":"185",
+		"codigo_ibge": "26"
+	},
+
+	{
+		"sigla" : "PI",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/pi.png",
+		"estado" : "Piauí",
+		"capital" : "Teresina",
+		"regiao": "Nordeste", 
+		"populacao":"3.198.185",
+		"idh":"0,703",
+		"expectativa_vida":"69,8",
+		"site":" http://www.teresina.pi.gov.br/",
+		"cidades":"224",
+		"codigo_ibge": "22"
+	},
+
+	{
+		"sigla" : "RJ",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/rj.png",
+		"estado" : "Rio de Janeiro",
+		"capital" : "Rio de Janeiro",
+		"regiao": "Sudeste", 
+		"populacao":"16.497.395",
+		"idh":"0,832",
+		"expectativa_vida":"74,1",
+		"site":" http://www.rio.rj.gov.br/",
+		"cidades":"92",
+		"codigo_ibge": "33"
+	},
+
+	{
+		"sigla" : "RN",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/rn.png",
+		"estado" : "Rio Grande do Norte",
+		"capital" : "Natal",
+		"regiao": "Nordeste", 
+		"populacao":"3.419.550",
+		"idh":"0,738",
+		"expectativa_vida":"74,0",
+		"site":" http://natal.rn.gov.br/",
+		"cidades":"167",
+		"codigo_ibge": "24"
+	},
+
+	{
+		"sigla" : "RS",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/rs.png",
+		"estado" : "Rio Grande do Sul",
+		"capital" : "Porto Alegre",
+		"regiao": "Sul", 
+		"populacao":"11.228.091",
+		"idh":"0,832",
+		"expectativa_vida":"75,9",
+		"site":" http://www2.portoalegre.rs.gov.br/",
+		"cidades":"497",
+		"codigo_ibge": "43"
+	},
+
+	{
+		"sigla" : "RO",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/ro.png",
+		"estado" : "Rondônia",
+		"capital" : "Porto Velho",
+		"regiao": "Norte", 
+		"populacao":"1.755.015",
+		"idh":"0,776",
+		"expectativa_vida":"70,3",
+		"site":" http://www.portovelho.ro.gov.br/",
+		"cidades":"52",
+		"codigo_ibge": "11"
+	},
+
+	{
+		"sigla" : "RR",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/rr.png",
+		"estado" : "Roraima",
+		"capital" : "Boa Vista",
+		"regiao": "Norte", 
+		"populacao":"500.826",
+		"idh":"0,750",
+		"expectativa_vida":"69,9",
+		"site":" http://www.boavista.rr.gov.br/",
+		"cidades":"15",
+		"codigo_ibge": "14"
+	},
+
+	{
+		"sigla" : "SC",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/sc.png",
+		"estado" : "Santa Catarina",
+		"capital" : "Florianópolis",
+		"regiao": "Sul", 
+		"populacao":"6.734.568",
+		"idh":"0,840",
+		"expectativa_vida":"76,8",
+		"site":" http://www.sc.gov.br/",
+		"cidades":"295",
+		"codigo_ibge": "42"
+	},
+
+	{
+		"sigla" : "SP",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/sp.png",
+		"estado" : "São Paulo",
+		"capital" : "São Paulo",
+		"regiao": "Sudeste", 
+		"populacao":"44.169.350",
+		"idh":"0,833",
+		"expectativa_vida":"76,0",
+		"site":" http://www.saopaulo.sp.gov.br/",
+		"cidades":"645",
+		"codigo_ibge": "35"
+	},
+
+	{
+		"sigla" : "SE",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/se.png",
+		"estado" : "Sergipe",
+		"capital" : "Aracaju",
+		"regiao": "Nordeste", 
+		"populacao":"2.227.294",
+		"idh":"0,742",
+		"expectativa_vida":"71,0",
+		"site":" http://www.aracaju.se.gov.br/",
+		"cidades":"75",
+		"codigo_ibge": "28"
+	},
+	
+	{
+		"sigla" : "TO",
+		"bandeira":"https://gregmaster.com.br/portifolio/mapa_br/img/to.png",
+		"estado" : "Tocantins",
+		"capital" : "Palmas",
+		"regiao": "Norte", 
+		"populacao":"1.502.759",
+		"idh":"0,756",
+		"expectativa_vida":"71,8",
+		"site":" http://www.palmas.to.gov.br/",
+		"cidades":"139",
+		"codigo_ibge": "17"
+	}
+
+]
