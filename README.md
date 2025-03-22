@@ -12,7 +12,6 @@
 - [Funcionalidades](#funcionalidades)
 - [Bibliotecas Utilizadas](#bibliotecas-utilizadas)
 - [Links de Estudo](#links-de-estudo)
-- [Fluxograma](#fluxograma)
 - [Ambiente Virtual](#ambiente-virtual)
 
 ---
@@ -36,6 +35,7 @@ O banco de dados utilizado é o **SQLite**, e as informações podem ser visuali
 ---
 
 ### Contexto da Campanha de Arrecadação para quitação da Arena Corinthians
+
 A construção da Arena Corinthians iniciou-se em 30 de maio de 2011 e, após três anos de obras, ela foi inaugurada em 10 de maio de 2014, com a realização de um jogo marcante envolvendo a participação de mais de 100 ex-jogadores que passaram pelo clube. O estádio foi utilizado para jogos da Copa do Mundo daquele ano. 
 O primeiro jogo oficial do Corinthians na nova casa ocorreu em 18 de maio de 2014 contra o Figueirense.
 
@@ -56,18 +56,31 @@ Conheça mais da iniciativa através do site <[https://www.doearenacorinthians.c
 Aqui está uma visão geral da estrutura básica do projeto:
 
 DOEARENACORINTHIANS/
+
 ├── README.md
+
 ├── main.py
+
 ├── bd.py
+
 ├── buscar_arrecadacao_atual.py
+
 ├── copiar_conteudo_html_top_100_doadores.py
+
 ├── extrair_dados_mapa_doacao_por_estados.py
+
 ├── extrair_dados_top100_doadores.py
+
 ├── dados/
+
 │ ├── dados_estados.json
+
 │ ├── arrecadacoes_estados.txt
+
 │ ├── conteudo_para_extracao_top100doadores.txt
+
 │ └── resultado_top_100_doadores.txt
+
 └── arenacorinthinas.db
 
 
@@ -108,7 +121,8 @@ O projeto oferece as seguintes funcionalidades:
 ---
 
 ## Extra: Extensão Visual Studio Code
-- **[SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer): Para visualizar o conteúdo do banco diretamente pela IDE do VSC.
+
+- [**SQLite Viewer**](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer): Para visualizar o conteúdo do banco diretamente pela IDE do VSC.
 ---
 
 ## Ambiente Virtual (Windows)
@@ -119,13 +133,22 @@ Para criar um ambiente virtual com o python , siga os passos abaixo:
 
    ```bash
    python -m venv name nome_do_seu_ambiente
+   ```
    
 2. **Ative o Ambiente Virtual**: Abra o terminal, na raiz do projeto, e execute o seguinte comando para criar um ambiente virtual com um nome específico (substitua `nome_do_seu_ambiente` pelo nome desejado):
 
    ```bash
    nome_do_seu_ambiente\Scripts\activate
+   ```
+
+3. **Executando o código**: Com o termainal abeto execute:
+
+   ```bash
+   python .\main.py
+   ```
 
 ### Requirements
+
 1. **Instale as dependências do projeto**: No terminal, na raiz do projeto, execute o seguinte comando para instalar todas as dependências do projeto no ambiente virtual ativado:
 
    ```bash
@@ -148,6 +171,7 @@ Para criar um ambiente virtual com o python , siga os passos abaixo:
 ---
 
 ## Próximas evoluções
+
 - Criar rotinas (cron/agendamento) para que a coleta de scrapping aconteça baseado em critérios temporais;
 - Adicionar estatísticas;
 - Parametrizar a quantidade de arrecações que o usuário deseja consultar;
