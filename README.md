@@ -12,8 +12,8 @@
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Bibliotecas Utilizadas](#bibliotecas-utilizadas)
-- [Extra: Extensão Visual Studio Code](#extra:-extensão-visual-studio-code)
-- [Ambiente Virtual (Windows)](#ambiente-virtual-(windows))
+- [Extra - Extensão Visual Studio Code](#extra-extensão-visual-studio-code)
+- [Ambiente Virtual - Windows](#ambiente-virtual-windows)
    - [Requirements](#requirements)
 - [Menu](#menu)
 - [Links de Estudo](#links-de-estudo)
@@ -117,11 +117,11 @@ O projeto oferece as seguintes funcionalidades:
 - **`datetime`**: Para manipulação de datas e horas.
 - **`ast`**: Para manipulação de árvores sintáticas abstratas.
 
-## Extra: Extensão Visual Studio Code
+## Extra - Extensão Visual Studio Code
 
 - [**SQLite Viewer**](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer): Para visualizar o conteúdo do banco diretamente pela IDE do VSC.
 
-## Ambiente Virtual (Windows)
+## Ambiente Virtual - Windows
 
 Para criar um ambiente virtual com o python , siga os passos abaixo:
 
