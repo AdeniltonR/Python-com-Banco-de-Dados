@@ -8,11 +8,16 @@
 
 - [Histórico de Versão](#histórico-de-versão)
 - [Introdução](#introdução)
+   - [Contexto da Campanha de Arrecadação para quitação da Arena Corinthians](#contexto-da-campanha-de-arrecadação-para-quitação-da-arena-corinthians)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Bibliotecas Utilizadas](#bibliotecas-utilizadas)
+- [Extra: Extensão Visual Studio Code](#extra:-extensão-visual-studio-code)
+- [Ambiente Virtual (Windows)](#ambiente-virtual-(windows))
+   - [Requirements](#requirements)
+- [Menu](#menu)
 - [Links de Estudo](#links-de-estudo)
-- [Ambiente Virtual](#ambiente-virtual)
+- [Próximas evoluções](#próximas-evoluções)
 
 ---
 
@@ -24,6 +29,7 @@
 | 1.0.1  | 19/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Testes de Scrapping|
 | 1.0.2  | 21/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Modularização e funções complementares |
 | 1.0.3  | 21/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Criação do Readme |
+
 ---
 
 ## Introdução
@@ -31,8 +37,6 @@
 Este projeto implementa um módulo de persistência de dados para armazenar informações coletadas do site de arrecadação (vaquinha) da Arena Corinthians. Ele recebe dados extraídos por scripts de **web scraping** e os salva em um banco de dados estruturado, permitindo consultas e futuras análises, como processamento de linguagem natural (NLP) para análise de sentimentos e previsão de tendências.
 
 O banco de dados utilizado é o **SQLite**, e as informações podem ser visualizadas com o **DBeaver**. Para o web scraping, foi utilizado o **Selenium** com o driver do Firefox (**geckodriver**).
-
----
 
 ### Contexto da Campanha de Arrecadação para quitação da Arena Corinthians
 
@@ -48,8 +52,6 @@ O valor doado pelos torcedores é depositado em uma conta <abbr title="É conta-
 Todos os doadores receberão um certificado de participação. Além disso, participação de sorteios semanais de ingressos entre os doadores para os jogos realizados na Arena Corinthians até o fim da campanha. Os torcedores que acumularem R$ 100 em doações, terão o nome eternizado em um mural físico que será construído na Arena Corinthians após a realização da campanha.
 
 Conheça mais da iniciativa através do site <[https://www.doearenacorinthians.com.br/](https://www.doearenacorinthians.com.br/)>
-
----
 
 ## Estrutura do Projeto
 
@@ -83,7 +85,6 @@ DOEARENACORINTHIANS/
 
 └── arenacorinthinas.db
 
-
 - **`README.md`**: Este arquivo contém as motivações, instruções e direcionamento para que o projeto possa ser compreendido e utilizado.
 - **`main.py`**: O arquivo principal do projeto, que contém o menu de funcionalidades.
 - **`bd.py`**: Módulo responsável pela criação e manipulação do banco de dados.
@@ -93,8 +94,6 @@ DOEARENACORINTHIANS/
 - **`extrair_dados_top100_doadores.py`**: Script para extrair os dados dos top 100 doadores.
 - **`dados/`**: Pasta que contém os arquivos de dados utilizados pelo projeto.
 - **`arenacorinthinas.db`**: Banco de dados SQLite gerado pelo projeto.
-
----
 
 ## Funcionalidades
 
@@ -107,7 +106,6 @@ O projeto oferece as seguintes funcionalidades:
 5. **Buscar arrecadação atual**: Busca a arrecadação atual do site e a insere no banco de dados.
 6. **Listar as últimas arrecadações**: Exibe as últimas arrecadações registradas no banco de dados.
 7. **Coletar doações por estados (site -< arquivo>)**: Visita o site e coleta todas as atualizações recentes de doações de cada estado e salva em um arquivo chamado arrecadacoes_estados.txt.
----
 
 ## Bibliotecas Utilizadas
 
@@ -118,12 +116,10 @@ O projeto oferece as seguintes funcionalidades:
 - **`json`**: Para manipulação de arquivos JSON.
 - **`datetime`**: Para manipulação de datas e horas.
 - **`ast`**: Para manipulação de árvores sintáticas abstratas.
----
 
 ## Extra: Extensão Visual Studio Code
 
 - [**SQLite Viewer**](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer): Para visualizar o conteúdo do banco diretamente pela IDE do VSC.
----
 
 ## Ambiente Virtual (Windows)
 
@@ -140,26 +136,23 @@ Para criar um ambiente virtual com o python , siga os passos abaixo:
    ```bash
    nome_do_seu_ambiente\Scripts\activate
    ```
-
-3. **Executando o código**: Com o termainal abeto execute:
-
-   ```bash
-   python .\main.py
-   ```
-
 ### Requirements
 
 1. **Instale as dependências do projeto**: No terminal, na raiz do projeto, execute o seguinte comando para instalar todas as dependências do projeto no ambiente virtual ativado:
 
    ```bash
    pip install -r requirements.txt
+   ```
 
----
+2. **Executando o código**: Com o termainal abeto execute:
+
+   ```bash
+   python .\main.py
+   ```
+
 ## Menu
 
 ![Menu de operações](img/menu.png "Menu")
-
----
 
 ## Links de Estudo
 
@@ -167,8 +160,6 @@ Para criar um ambiente virtual com o python , siga os passos abaixo:
 - [Documentação do SQLite](https://www.sqlite.org/docs.html)
 - [Geckodriver Releases](https://github.com/mozilla/geckodriver/releases)
 - [DBeaver - Visualização de Banco de Dados](https://dbeaver.io/)
-
----
 
 ## Próximas evoluções
 
