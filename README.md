@@ -8,12 +8,16 @@
 
 - [Histórico de Versão](#histórico-de-versão)
 - [Introdução](#introdução)
+   - [Contexto da Campanha de Arrecadação para quitação da Arena Corinthians](#contexto-da-campanha-de-arrecadação-para-quitação-da-arena-corinthians)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Bibliotecas Utilizadas](#bibliotecas-utilizadas)
+- [Extra - Extensão Visual Studio Code](#extra---extensão-visual-studio-code)
+- [Ambiente Virtual - Windows](#ambiente-virtual---windows)
+   - [Requirements](#requirements)
+- [Menu](#menu)
 - [Links de Estudo](#links-de-estudo)
-- [Fluxograma](#fluxograma)
-- [Ambiente Virtual](#ambiente-virtual)
+- [Próximas evoluções](#próximas-evoluções)
 
 ---
 
@@ -39,6 +43,7 @@ O banco de dados utilizado é o **SQLite**, e as informações podem ser visuali
 ---
 
 ### Contexto da Campanha de Arrecadação para quitação da Arena Corinthians
+
 A construção da Arena Corinthians iniciou-se em 30 de maio de 2011 e, após três anos de obras, ela foi inaugurada em 10 de maio de 2014, com a realização de um jogo marcante envolvendo a participação de mais de 100 ex-jogadores que passaram pelo clube. O estádio foi utilizado para jogos da Copa do Mundo daquele ano. 
 O primeiro jogo oficial do Corinthians na nova casa ocorreu em 18 de maio de 2014 contra o Figueirense.
 
@@ -52,27 +57,37 @@ Todos os doadores receberão um certificado de participação. Além disso, part
 
 Conheça mais da iniciativa através do site <[https://www.doearenacorinthians.com.br/](https://www.doearenacorinthians.com.br/)>
 
----
-
 ## Estrutura do Projeto
 
 Aqui está uma visão geral da estrutura básica do projeto:
 
 DOEARENACORINTHIANS/
-├── README.md
-├── main.py
-├── bd.py
-├── buscar_arrecadacao_atual.py
-├── copiar_conteudo_html_top_100_doadores.py
-├── extrair_dados_mapa_doacao_por_estados.py
-├── extrair_dados_top100_doadores.py
-├── dados/
-│ ├── dados_estados.json
-│ ├── arrecadacoes_estados.txt
-│ ├── conteudo_para_extracao_top100doadores.txt
-│ └── resultado_top_100_doadores.txt
-└── arenacorinthinas.db
 
+├── README.md
+
+├── main.py
+
+├── bd.py
+
+├── buscar_arrecadacao_atual.py
+
+├── copiar_conteudo_html_top_100_doadores.py
+
+├── extrair_dados_mapa_doacao_por_estados.py
+
+├── extrair_dados_top100_doadores.py
+
+├── dados/
+
+│ ├── dados_estados.json
+
+│ ├── arrecadacoes_estados.txt
+
+│ ├── conteudo_para_extracao_top100doadores.txt
+
+│ └── resultado_top_100_doadores.txt
+
+└── arenacorinthinas.db
 
 - **`README.md`**: Este arquivo contém as motivações, instruções e direcionamento para que o projeto possa ser compreendido e utilizado.
 - **`main.py`**: O arquivo principal do projeto, que contém o menu de funcionalidades.
@@ -83,8 +98,6 @@ DOEARENACORINTHIANS/
 - **`extrair_dados_top100_doadores.py`**: Script para extrair os dados dos top 100 doadores.
 - **`dados/`**: Pasta que contém os arquivos de dados utilizados pelo projeto.
 - **`arenacorinthinas.db`**: Banco de dados SQLite gerado pelo projeto.
-
----
 
 ## Funcionalidades
 
@@ -97,7 +110,6 @@ O projeto oferece as seguintes funcionalidades:
 5. **Buscar arrecadação atual**: Busca a arrecadação atual do site e a insere no banco de dados.
 6. **Listar as últimas arrecadações**: Exibe as últimas arrecadações registradas no banco de dados.
 7. **Coletar doações por estados (site -< arquivo>)**: Visita o site e coleta todas as atualizações recentes de doações de cada estado e salva em um arquivo chamado arrecadacoes_estados.txt.
----
 
 ## Bibliotecas Utilizadas
 
@@ -108,13 +120,12 @@ O projeto oferece as seguintes funcionalidades:
 - **`json`**: Para manipulação de arquivos JSON.
 - **`datetime`**: Para manipulação de datas e horas.
 - **`ast`**: Para manipulação de árvores sintáticas abstratas.
----
 
-## Extra: Extensão Visual Studio Code
-- **[SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer): Para visualizar o conteúdo do banco diretamente pela IDE do VSC.
----
+## Extra - Extensão Visual Studio Code
 
-## Ambiente Virtual (Windows)
+- [**SQLite Viewer**](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer): Para visualizar o conteúdo do banco diretamente pela IDE do VSC.
+
+## Ambiente Virtual - Windows
 
 Para criar um ambiente virtual com o python , siga os passos abaixo:
 
@@ -122,24 +133,30 @@ Para criar um ambiente virtual com o python , siga os passos abaixo:
 
    ```bash
    python -m venv name nome_do_seu_ambiente
+   ```
    
 2. **Ative o Ambiente Virtual**: Abra o terminal, na raiz do projeto, e execute o seguinte comando para criar um ambiente virtual com um nome específico (substitua `nome_do_seu_ambiente` pelo nome desejado):
 
    ```bash
    nome_do_seu_ambiente\Scripts\activate
-
+   ```
 ### Requirements
+
 1. **Instale as dependências do projeto**: No terminal, na raiz do projeto, execute o seguinte comando para instalar todas as dependências do projeto no ambiente virtual ativado:
 
    ```bash
    pip install -r requirements.txt
+   ```
 
----
+2. **Executando o código**: Com o termainal abeto execute:
+
+   ```bash
+   python .\main.py
+   ```
+
 ## Menu
 
 ![Menu de operações](img/menu.png "Menu")
-
----
 
 ## Links de Estudo
 
@@ -148,9 +165,8 @@ Para criar um ambiente virtual com o python , siga os passos abaixo:
 - [Geckodriver Releases](https://github.com/mozilla/geckodriver/releases)
 - [DBeaver - Visualização de Banco de Dados](https://dbeaver.io/)
 
----
-
 ## Próximas evoluções
+
 - Criar rotinas (cron/agendamento) para que a coleta de scrapping aconteça baseado em critérios temporais;
 - Adicionar estatísticas;
 - Parametrizar a quantidade de arrecações que o usuário deseja consultar;
