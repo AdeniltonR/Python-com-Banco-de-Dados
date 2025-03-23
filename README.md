@@ -25,6 +25,7 @@
 | 1.0.1  | 19/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Testes de Scrapping|
 | 1.0.2  | 21/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Modularização e funções complementares |
 | 1.0.3  | 21/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Criação do Readme |
+| 1.0.4  | 21/03/2025 | [Adenilton Ribeiro](http://github.com/adeniltonr), [Gregorio Queiroz](https://github.com/GregMasterBr) | Demonstração vídeo youtube |
 ---
 
 ## Introdução
@@ -33,6 +34,8 @@ Este projeto implementa um módulo de persistência de dados para armazenar info
 
 O banco de dados utilizado é o **SQLite**, e as informações podem ser visualizadas com o **DBeaver**. Para o web scraping, foi utilizado o **Selenium** com o driver do Firefox (**geckodriver**).
 
+### Demonstração
+<https://youtu.be/Q9gB5WKqca8>
 ---
 
 ### Contexto da Campanha de Arrecadação para quitação da Arena Corinthians
