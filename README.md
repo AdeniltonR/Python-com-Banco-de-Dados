@@ -63,33 +63,23 @@ Conheça mais da iniciativa através do site <[https://www.doearenacorinthians.c
 
 Aqui está uma visão geral da estrutura básica do projeto:
 
+```bash
 DOEARENACORINTHIANS/
 
 ├── README.md
-
 ├── main.py
-
 ├── bd.py
-
 ├── buscar_arrecadacao_atual.py
-
 ├── copiar_conteudo_html_top_100_doadores.py
-
 ├── extrair_dados_mapa_doacao_por_estados.py
-
 ├── extrair_dados_top100_doadores.py
-
 ├── dados/
-
 │ ├── dados_estados.json
-
 │ ├── arrecadacoes_estados.txt
-
 │ ├── conteudo_para_extracao_top100doadores.txt
-
 │ └── resultado_top_100_doadores.txt
-
 └── arenacorinthinas.db
+```
 
 - **`README.md`**: Este arquivo contém as motivações, instruções e direcionamento para que o projeto possa ser compreendido e utilizado.
 - **`main.py`**: O arquivo principal do projeto, que contém o menu de funcionalidades.
