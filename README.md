@@ -38,8 +38,10 @@ Este projeto implementa um módulo de persistência de dados para armazenar info
 
 O banco de dados utilizado é o **SQLite**, e as informações podem ser visualizadas com o **DBeaver**. Para o web scraping, foi utilizado o **Selenium** com o driver do Firefox (**geckodriver**).
 
-### Demonstração
-<https://youtu.be/Q9gB5WKqca8>
+### Assista ao vídeo no YouTube !
+
+[![Assista ao vídeo](https://img.youtube.com/vi/Q9gB5WKqca8/0.jpg)](https://youtu.be/Q9gB5WKqca8)
+
 ---
 
 ### Contexto da Campanha de Arrecadação para quitação da Arena Corinthians
